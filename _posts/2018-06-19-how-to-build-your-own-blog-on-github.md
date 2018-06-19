@@ -3,7 +3,7 @@ layout: post
 title: "Build your own blog on github"
 date: 2018-06-19
 excerpt: "how to build a blog on gitbug pages."
-tags: [blog, github pages, moon, Jekyll]
+tags: [blog,github pages,moon,Jekyll]
 comments: true
 ---
 
@@ -47,7 +47,7 @@ Clone the [Moon](https://github.com/TaylanTatli/Moon) project, and copy all the 
 
 Modify the _config.yml file, such as change the title, disqus\_shortname. you can find more details from the [tutorial](https://taylantatli.github.io/Moon/moon-theme/). 
 
-Remember to run `bundle updat`.
+Remember to run `bundle update`.
 
 Remove all the files under the folder _posts, and create a new md file and write something. 
 

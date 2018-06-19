@@ -3,8 +3,9 @@ layout: post
 title: "Fisrt Blog"
 date: 2018-06-19
 excerpt: "This is a test blog."
-tags: [sample post, test]
+tags: [sample post,test]
 comments: true
+nlp: true
 ---
 
 ## Test
