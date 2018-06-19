@@ -1,14 +1,14 @@
 # Site
 title:              "Jason Luo's Blog"
-bio:                'Try something new!'
-description:        "Mini blog based on Moon."
+bio:                'Something about NLP, something about me.'
+description:        "Simple blog based on Moon."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/5196100.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://xueyou.luo.github.io
+url:                https://xueyouluo.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   jason_luo
+disqus_shortname:   xueyouluo
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -37,10 +37,10 @@ disqus_shortname:   jason_luo
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
+email:              xueyou.luo@gmail.com
 #twitter:            username
 #facebook:           username
-github-url:         xueyou.luo
+github-url:         xueyouluo
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
