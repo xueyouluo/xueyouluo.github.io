@@ -7,7 +7,7 @@ tags: [AMP, deep learning, XLA, gradients accumulation]
 comments: true
 ---
 
-### 罗学优 艾耕科技
+### Xueyou Luo @ Eigen Tech
 
 随着Bert,GPT-2,XLNet的推出，效果提升的同时一个很大的问题就是这些模型都太大了，我们不像google有那么多tpu资源，如果想要自己训练这些模型就得想想其他的方法。这里我们研究了几种在有限硬件条件下加速模型训练以及如何训练大模型的方法，供大家做参考。虽然我们探讨的是如何训练大模型的方法，但是对于训练普通模型仍然有意义。
 
