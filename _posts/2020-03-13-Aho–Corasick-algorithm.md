@@ -1,3 +1,12 @@
+---
+layout: post
+title: "AC自动机 | 多字符串匹配你会吗？"
+date: 2020-03-13
+excerpt: "ac自动机算法"
+tags: [Aho–Corasick,algorithm,string search]
+comments: true
+---
+
 # AC自动机 | 多字符串匹配你会吗？
 
 字符串匹配算法应该每个学过编程的同学都会，KMP算法曾是我的噩梦（好像现在也不记得了-_-）。不过传统的字符串匹配算法都是匹配一个子串，我们今天说的这个是如何同时匹配多个子串，而且时间复杂度平均为线性的，它叫AC自动机。
@@ -32,7 +41,7 @@
 
 假设我们的字典包含这些词`{a,ab,bab,bc,bca,c,caa}`，待匹配的字符串是`abccab`。构建的trie如下所示：
 
-![ac-trie](1024px-Ahocorasick.svg.png)
+![ac-trie]({{ site.url }}/assets/img/1024px-Ahocorasick.svg.png)
 
 目前我们只关心黑色的箭头，因为这个代表普通的trie树结构。现在开始从字符串`i=0`的字符开始匹配，trie从root节点开始`a,ab`你可以匹配到，但是到`c`的时候你发现匹配失败了，这时候正常的话你需要将`i+=1`从下一个字符开始匹配，trie又开始从root匹配。但是这里的问题是，我们已经匹配过`ab`了，说明下一个字符肯定是`b`，我们完全没有必要再从trie的root开始匹配，这时候我们从root下面的`b`节点开始匹配就好了，也就是失配指针（图中蓝色的箭头）指向的地方。
 
