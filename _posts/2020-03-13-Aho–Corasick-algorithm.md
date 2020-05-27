@@ -5,6 +5,7 @@ date: 2020-03-13
 excerpt: "ac自动机算法"
 tags: [Aho–Corasick,algorithm,string search]
 comments: true
+nlp: true 
 ---
 
 # AC自动机 | 多字符串匹配你会吗？
