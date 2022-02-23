@@ -5,7 +5,6 @@ date: 2020-05-27
 excerpt: "程序员职业素养"
 tags: [the clean coder]
 comments: true
-nlp: true 
 ---
 
 # 《代码整洁之道-程序员的职业素养》一
